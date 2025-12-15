@@ -1,0 +1,221 @@
+/* ===========================
+   MOBILE RESPONSIVE (max-width: 768px)
+=========================== */
+@media (max-width: 768px) {
+
+  /* HEADER */
+  header {
+    padding: 1rem 1.2rem;
+  }
+
+  /* Hide desktop nav */
+  .desktop-nav {
+    display: none;
+  }
+
+  /* Show menu icon */
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu img {
+    width: 28px;
+  }
+
+  /* HERO SECTION */
+  .intro {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 4vh 6vw;
+    gap: 2rem;
+  }
+
+  .name h2 {
+    font-size: 2.5rem;
+  }
+
+  .left p {
+    font-size: 1.1rem;
+    max-width: 100%;
+  }
+
+  .call-whatsapp-logo {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .circle-container {
+    width: 240px;
+    height: 240px;
+  }
+
+  /* ABOUT */
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image {
+    height: auto;
+  }
+
+  .about-heading {
+    font-size: 2rem;
+  }
+
+  /* PROJECTS */
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .projects-header h2 {
+    color: #00ffff;
+  }
+
+  .projects-header p {
+    color: #9aaac3;
+  }
+
+  /* SKILLS */
+  .skills-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .skills-container {
+    gap: 22px;
+  }
+
+  /* CONTACT */
+  .contact-header h2 {
+    font-size: 2.1rem;
+  }
+
+  /* SOCIAL ICONS */
+  .social-links {
+    right: 0.5rem;
+    top: 60%;
+  }
+
+  .social-links i {
+    font-size: 1.6rem;
+  }
+
+
+ .intro {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 3.5rem 1.2rem;
+  }
+
+  .left {
+    width: 100%;
+    align-items: center;
+  }
+
+  .name h2 {
+    font-size: 2.2rem;
+    line-height: 1.25;
+  }
+
+  .left p {
+    font-size: 1.05rem;
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+
+  /* CALL + WHATSAPP FIX */
+  .call-whatsapp-logo {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+    width: 100%;
+  }
+
+  .call-whatsapp-logo h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  /* IMAGE */
+  .circle-container {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 1.5rem;
+  }
+
+
+  
+  .left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left p {
+    width: 100%;
+    max-width: 320px;     /* controlled width */
+    margin: 0 auto;       /* exact center */
+    text-align: center;
+    line-height: 1.6;
+  }
+}
+
+
+/* ===========================
+   TABLET RESPONSIVE (769px - 1024px)
+=========================== */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  /* HERO SECTION */
+  .intro {
+    padding: 5rem 4vw;
+    gap: 3rem;
+  }
+
+  .left {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .name h2 {
+    font-size: 3rem;
+    line-height: 1.25;
+  }
+
+  .left p {
+    max-width: 420px;
+    font-size: 1.15rem;
+    line-height: 1.6;
+  }
+
+  /* CALL + WHATSAPP */
+  .call-whatsapp-logo {
+    justify-content: flex-start;
+    padding: 10px 16px;
+  }
+
+  .call-whatsapp-logo h3 {
+    font-size: 1.15rem;
+  }
+
+  /* IMAGE */
+  .circle-container {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+
+
+
+
+

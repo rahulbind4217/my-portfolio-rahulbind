@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Portfolio | Rahul Bind</title>
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+	<link rel="stylesheet" href="portfolio.css" />
+	<link rel="stylesheet" href="media.css" />
+	<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+	<script>
+		(function () {
+			emailjs.init({
+				publicKey: "ClcEwszaY7AVRgTU1",
+			});
+		})();
+	</script>
+
+
+
+
+</head>
+
+<body>
+	<!--mobile side nav bar-->
+	<div class="mobile">
+		<div class="X-mark-container">
+			<i class="fa-solid fa-xmark" id="cross-mark"></i>
+		</div>
+		<div class="mobile-img-container">
+			<img src="WhatsApp Image 2025-09-05 at 12.57.50 AM.jpeg" alt="">
+		</div>
+		<div class="mobile-nav">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+
+	</div>
+	<header>
+		<div class="logo">
+			<h3><span>R</span>AHUL..</h3>
+		</div>
+
+		<div class="menu">
+			<img src="menu.png" alt="Menu Icon" />
+		</div>
+
+
+		<!-- Desktop nav -->
+		<nav class="desktop-nav">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+
+	<!-- Main Content -->
+	<main>
+		<!-- Hero / Intro Section -->
+		<section class="intro" id="home">
+			<div class="left">
+				<div class="name">
+					<h2>Hey, I'm <br><span class="name-role"></span></h2>
+				</div>
+				<p>A frontend developer who loves crafting clean, responsive, and user-friendly websites.</p>
+				<div class="call-whatsapp-logo">
+					<a href="tel:+918231964217">
+						<i class="fas fa-phone" id="call"></i>
+					</a>
+
+					<a href="https://wa.me/918231964217" target="_blank">
+						<i class="fab fa-whatsapp" id="WhatsApp"></i>
+					</a>
+
+					<h3>8231964217</h3>
+				</div>
+			</div>
+			<div class="right">
+				<div class="circle-container">
+					<img src="Copilot_20251003_005927.png" alt="Profile Photo" />
+				</div>
+			</div>
+
+		</section>
+
+		<!-- About Section -->
+		<section class="section-two" id="about">
+			<div class="about-container">
+				<!-- Left Side - Image -->
+				<div class="about-image">
+					<img src="WhatsApp Image 2025-09-05 at 12.57.50 AM.jpeg"
+						alt="Rahul Bind - Frontend Developer" />
+
+					
+				</div>
+
+				<!-- Right Side - Content -->
+				<div class="about-content">
+					<h2 class="about-heading">About Me</h2>
+					<p>
+						Hi, I’m <span class="highlight">Rahul Bind</span>, a passionate
+						<span class="highlight">Frontend Developer</span> who loves building
+						modern, responsive, and user-friendly websites. <br /><br />
+						I specialize in <strong>HTML, CSS, JavaScript, and React</strong>. I’m
+						constantly exploring new technologies to create clean, efficient, and
+						impactful projects.
+					</p>
+
+					<p>
+						Beyond coding, I enjoy exploring design trends, sharpening my
+						problem-solving skills, and staying ahead in the fast-evolving tech
+						world.
+					</p>
+
+					<a href="MY_RESUME.pdf" download class="about-btn">
+						Download Resume
+					</a>
+
+				</div>
+			</div>
+
+
+
+
+		</section>
+
+
+		<!-- Projects Section -->
+		<section class="section-three" id="projects">
+			<div class="projects-header">
+				<h2>My Projects</h2>
+				<p>Take a look at some of the work I've built recently</p>
+			</div>
+
+			<div class="cards-container">
+				<!-- Project Card -->
+				<div class="project-card">
+					<div class="project-image">
+						<img src="WhatsApp Image 2025-12-14 at 2.40.49 AM.jpeg"
+							alt="Typing Test App" />
+						<div class="overlay">
+							<h3>Typing Test App</h3>
+							<p>A typing speed test app that measures speed, accuracy & run time.</p>
+							<div class="buttons">
+								<a href="https://693ec432af115f4d606bbb19--comforting-halva-6a230d.netlify.app/"
+									class="btn">Live Demo</a>
+								<a href="https://github.com/rahulbind4217/typing-speed-checker"
+									class="btn-outline">Source Code</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!---second card-->
+				<div class="project-card">
+					<div class="project-image">
+						<img src="WhatsApp Image 2025-12-14 at 2.40.49 AM.jpeg" alt="e-commerce site" />
+						<div class="overlay">
+							<h3>Typing Test App</h3>
+							<p>A typing speed test app that measures speed, accuracy & run time.</p>
+							<div class="buttons">
+								<a href="#" class="btn">Live Demo</a>
+								<a href="#" class="btn-outline">Source Code</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Another Project Card -->
+				<!-- <div class="project-card">
+					<div class="project-image">
+						<img src="weather-app.jpg" alt="Weather App" />
+						<div class="overlay">
+							<h3>Weather App</h3>
+							<p>Real-time responsive weather app built with API integration.</p>
+							<div class="buttons">
+								<a href="#" class="btn">Live Demo</a>
+								<a href="#" class="btn-outline">Source Code</a>
+							</div>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</section>
+
+
+		<!-- Skills Section -->
+		<section class="section-four" id="skills">
+			<div class="skills-header">
+				<h2>Skills</h2>
+				<p>Technologies I work with</p>
+			</div>
+
+			<div class="skills-container">
+				<div class="skill-card">
+					<img src="html.png" alt="HTML" />
+					<p>HTML</p>
+				</div>
+				<div class="skill-card">
+					<img src="css.png" alt="CSS" />
+					<p>CSS</p>
+				</div>
+				<div class="skill-card">
+					<img src="js.png" alt="JavaScript" />
+					<p>JavaScript</p>
+				</div>
+				<div class="skill-card">
+					<img src="reactjs.png" alt="ReactJS" />
+					<p>ReactJS</p>
+				</div>
+				<div class="skill-card">
+					<img src="redux.png" alt="Redux" />
+					<p>Redux</p>
+				</div>
+				<div class="skill-card">
+					<img src="figma-logo.png" alt="Figma" />
+					<p>Figma</p>
+				</div>
+				<div class="skill-card">
+					<img src="GitHub-Symbol.png" alt="GitHub" />
+					<p>GitHub</p>
+				</div>
+				<div class="skill-card">
+					<img src="tailwind-css-logo-png_seeklogo-434090.png" alt="Tailwind CSS" />
+					<p>Tailwind CSS</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section class="contact-section" id="contact">
+			<div class="contact-header">
+				<h2>Contact Me</h2>
+				<p>Let’s build something amazing together </p>
+			</div>
+
+			<form class="contact-form" action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+				<div class="form-group">
+					<input type="text" id="name" name="name" placeholder="Your Name" required />
+				</div>
+
+				<div class="form-group">
+					<input type="email" id="email" name="email" placeholder="Your Email" required />
+				</div>
+
+				<div class="form-group">
+					<textarea id="message" name="message" rows="6" placeholder="Write your message..."
+						required></textarea>
+				</div>
+
+				<button type="submit" id="sendMasssage">Send Message </button>
+			</form>
+		</section>
+
+
+		<!-- Social Links -->
+		<div class="social-links">
+			<a href="https://www.instagram.com/real_rahul15/"><i class="fa-brands fa-instagram insta"></i></a>
+			<a href="https://www.linkedin.com/in/rahul-bind-191b20326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin linkedin"></i></a>
+			<a href="https://github.com/rahulbind4217"><i class="fa-brands fa-github github"></i></a>
+		</div>
+
+		<!-- Back to Top Button -->
+		<a href="#" class="back-to-top"><i class="fa-solid fa-arrow-up"></i> Back to top</a>
+	</main>
+
+	<!-- Footer -->
+	<footer class="site-footer">
+		<p class="footer-tagline">Crafted with passion, pixels, and persistence.</p>
+		<p class="footer-credit">&copy; 2025 Rahul Bind — Turning ideas into interactive realities.</p>
+		<div class="footer-links">
+			<a href="https://www.linkedin.com/in/rahul-bind-191b20326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i>
+				LinkedIn</a>
+			<span>|</span>
+			<a href="mailto:rahulbind4217@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+			<span>|</span>
+			<a href="https://github.com/rahulbind4217" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+		</div>
+	</footer>
+
+	<!---nav bar for mobile-->
+
+
+
+
+
+	<!-- JavaScript -->
+	<script src="portfolio.js"></script>
+</body>
+
+</html>
